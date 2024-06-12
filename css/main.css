@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Spartan";
+  src: url(../assets/LeagueSpartan-Regular.ttf);
+}
+
+.spartan {
+  font-family: "Spartan";
+}
+
+@font-face {
+  font-family: "Strange Phenomena";
+  src: url(../assets/StrangePhenomena.ttf);
+}
+
+.strange {
+  font-family: "Strange Phenomena";
+}
+
+@font-face {
+  font-family: "Strange Phenomena Outlined";
+  src: url(../assets/StrangePhenomenaoutlined.ttf);
+}
+
+.strange-outlined {
+  font-family: "Strange Phenomena Outlined";
+}
+
+.section-1 {
+  background-image: url(../assets/cut-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section-2 {
+  background-image: url(../assets/bg4.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.section-3 {
+  background-image: url(../assets/bg4.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.outline-text {
+  color: #3ca240;
+  -webkit-text-stroke: 2px #0f5e15;
+}
+
+.box-1 {
+  --mask: conic-gradient(
+      from -45deg at bottom,
+      #0000,
+      #000 1deg 89deg,
+      #0000 90deg
+    )
+    50%/90px 100%;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
